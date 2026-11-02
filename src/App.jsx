@@ -8,7 +8,7 @@ import ShopPhones from './components/ShopPhones';
 import WhyNimbus from './components/WhyNimbus';
 import { useCart } from './hooks/useCart';
 import { useProducts } from './hooks/useProducts';
-
+import './index.css' // <--- لازم السطر ده يكون موجود فوق خالص!
 export default function App() {
   const { products, status, reload } = useProducts();
   const cart = useCart();
